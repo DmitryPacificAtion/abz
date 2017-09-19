@@ -1,0 +1,10 @@
+.search__icon {
+	&:hover {
+		cursor: pointer;
+	}
+	&:active {
+		.svg-icon { 
+			fill: #fff; 
+		}
+	}
+}

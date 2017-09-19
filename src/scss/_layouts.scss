@@ -1,14 +1,33 @@
-.l-header {
-
+.l-header, .l-footer {
+	background-color: $green;
 }
-.l-left-side {
-
+.l-header {
+	border-bottom: 2px solid $dark-green;
+	height: 67px;
+	padding-top: 10px;
+	padding-bottom: 16px;
+}
+.l-content-wrapper {
+	padding: 0;
+}
+.l-left-side, .l-right-side {
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 242.5px;
 }
 .l-right-side {
-
+	
 }
 .l-content {
-
+	width: 100%;
+}
+.l-footer {
+	background-color: $green;
+	border-top: 2px solid $dark-green;
+	height: 67px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	clear: both;
 }
 .l-popup {
 	
