@@ -42,3 +42,93 @@
 		margin-right: 10px;
 	}
 }
+.l-content {
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		border: 1px solid grey;
+		border-radius: 5px;
+		padding: 15px; 
+	}
+	&__items {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.item-preview {
+		padding: 34px;
+		border: 1px solid grey;
+		&__wrap {
+		}
+		&__img {
+			width: 71px;
+			height: 71px;
+			background-image: url('../img/sprite.png');
+			background-repeat: no-repeat;
+			background-position: 0px 0px;
+		}
+	}
+}
+.accountantcy {
+
+}
+.associations {
+
+}
+.dental-ractice {
+
+}
+.waste-collection {
+
+}
+.computer-service {
+
+}
+.basic-life-support {
+
+}
+.dental-recruitment {
+
+}
+.dental-software {
+
+}
+.electrical-safety {
+
+}
+.marketing {
+
+}
+.others {
+
+}
+.repairs {
+
+}
+.solicitors {
+
+}
+.surgery-design {
+
+}
+.training {
+
+}
+.web-designers {
+
+}
+.cleaning-agencies {
+
+}
+.dental-chair-recovery {
+
+}
+.equipment {
+
+}
+.selling-gold {
+
+}
+.uniform-workwear {
+
+}
